@@ -1,0 +1,44 @@
+#!/usr/bin/perl
+
+# xpkgtool - Graphical frontend to Slackware package management
+# Copyright (C) 2013 Ryan Northrup / XeriWare
+# 
+# This program is free software and is made availble under the terms
+# of the Artistic License 2.0 (see the LICENSE file for more details).
+
+use strict;
+use Tk;
+
+my $config = {
+    tmp_path => "/tmp/xpkgtool",
+    config_file => [
+        "/etc/xpkgtool/config.yaml",
+        "~/.config/xpkgtool/config.yaml",
+    ],
+}
+
+
+
+sub explode_package {
+
+}
+
+sub install_package {
+
+}
+
+sub upgrade_package {
+
+}
+
+sub remove_package {
+
+}
+
+sub build_package {
+
+}
+
+sub list_installed_packages {
+
+}
