@@ -1,0 +1,28 @@
+=head1 NAME
+
+xpkgtool - A graphical frontend to Slackware package management
+
+=head1 DESCRIPTION
+
+xpkgtool is a graphical tool designed to provide a graphical interface to
+Slackware .t?z packages.  The goal is to incorporate package installation,
+upgrading, and removal for any Slackware package.
+
+Future enhancements may include support for building packages from SlackBuild
+scripts, converting RPM (and possibly Debian) packages to Slackware packages
+(i.e. using tools like alien or rpm2tgz), and creating packages from scratch.
+
+=head1 DEPENDENCIES
+
+xpkgtool is written in Perl and - thus - requires a reasonably-modern Perl to
+run.  It will also need the Tk and Archive::Extract packages from CPAN.
+
+=head1 AUTHOR
+
+xpkgtool is written/maintained by Ryan Northrup.
+
+=head1 COPYING
+
+xpkgtool is free software; you may redistribute and/or modify it under the
+terms of version 2.0 of the Artistic License (the full text of which is
+included in the LICENSE file of xpkgtool's upstream distribution).
